@@ -20,7 +20,7 @@ public:
         int n = nums.size();
         v=nums;
         
-        for(int i =0; i<n;i++)
+        for(int i =0; i<n;i++)          //O(n) time complexity Linear one for loop.
         {
             v.push_back(nums[i]);
         }
