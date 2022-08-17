@@ -11,6 +11,9 @@
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
+        //Time Complexity O(N) where n is amount of nodes
+        //Space Complexity is O(1) 
+        
         
         ListNode* curr = head;
         int cnt = 0;
