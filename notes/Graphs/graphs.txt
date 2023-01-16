@@ -1,1 +1,9 @@
-Graphs for interviews:
+Graph:
+Edges: connects the vertex;
+Vertex: points that connect the edges.
+
+Adjacency Matrix: 2d array that represents graphs
+
+V x V size:
+vertex row, vertex col
+
