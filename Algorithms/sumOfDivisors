@@ -1,0 +1,16 @@
+int sumOfAllDivisors(int n){
+		// (n/i) determines the divisor number!
+		// for example n = 6 and i = 2
+		// 6/2 = 3 and yes 3 can divide into 6
+		//then to get the value we multipy 3 * 2 = 6 and add that to the sum until we reach the end of digits.
+	
+	int sum = 0;
+
+	for(int i = 1; i<=n; i++)
+	{
+		sum += ((n/i) * i );
+	}
+
+
+    return sum;
+}
