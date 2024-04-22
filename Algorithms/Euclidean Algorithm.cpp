@@ -10,7 +10,7 @@ int main()
 	int b = 0;
 
 	cin >> a >> b;
-	//while they are not 0
+	//while they are greater than 0
 	while(a > 0 && b > 0)
 	{
 		//get the larger value and divide (get remainder of the other)
@@ -20,7 +20,7 @@ int main()
 			b = b % a;
 		
 	}
-		//check which value is a 0 and you now have the GCD
+		//check which value is a 0 and the other value will be 0!
 		if(a == 0)
 			cout << b;
 		else
