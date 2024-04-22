@@ -34,7 +34,7 @@ int main()
 		if(n%i == 0)//if we find a divisor!
 		{
 			cnt++;// count it.
-			if((n/i) != i)//then check the higher end of divisor
+			if((n/i) != i)//then check the higher end of divisor we have to check this because we dont count the divisor twice for example 6*6 = 36. but we only count 6 once.
 			{
 				cnt++;//count it.
 			}
